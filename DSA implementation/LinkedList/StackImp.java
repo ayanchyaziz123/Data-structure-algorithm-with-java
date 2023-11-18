@@ -1,3 +1,4 @@
+package LinkedList;
 import java.util.EmptyStackException;
 public class StackImp {
     int size = 0;
