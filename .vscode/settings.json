@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "collections",
+        "OOP",
         "DSA implementation/Tries",
         "DSA implementation/Graph",
         "DSA implementation/BS Tree",
         "DSA implementation",
-        "OOP"
+        "Leetcode"
     ]
 }

@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BFS {
+public class DFS {
 
     // Function to add an undirected edge to the adjacency list
     // Time Complexity: O(1) - Adding an element to an ArrayList is constant time.
@@ -14,7 +14,7 @@ public class BFS {
 
     // Function to perform Breadth-First Search (BFS) on a graph
     // Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges
-    static void BFS(ArrayList<Integer> adj[], int V, int src) {
+    static void DFS(ArrayList<Integer> adj[], int V, int src) {
         boolean visited[] = new boolean[V];
         int cost[] = new int[V];
 
@@ -89,7 +89,7 @@ public class BFS {
         // Read the source vertex for BFS
         int src = scanner.nextInt();
 
-        // Call BFS function
-        BFS(adj, V, src);
+        // Call DFS function
+        DFS(adj, V, src);
     }
 }
