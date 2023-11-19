@@ -1,4 +1,6 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -19,15 +21,11 @@ public class BFS {
         int cost[] = new int[V];
 
         // Initialize cost array to 0
-        for (int i = 0; i < V; i++) {
-            cost[i] = 0;
-        }
+        Arrays.fill(cost, 0);
 
         // Initialize visited array to false
-        for (int i = 0; i < V; i++) {
-            visited[i] = false;
-        }
-
+        Arrays.fill(visited, false);
+        
         // Create a queue for BFS
         Queue<Integer> queue = new LinkedList<Integer>();
 
