@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "DSA implementation/Tries",
+        "DSA implementation/Graph",
+        "DSA implementation/BS Tree",
+        "DSA implementation",
+        "collections"
+    ]
+}

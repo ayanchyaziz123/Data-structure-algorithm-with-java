@@ -20,6 +20,7 @@ public class Tries {
     static Node root = new Node();
 
     // Method to insert a word into the Trie
+    // Time Complexity: O(m), where m is the length of the word being inserted
     public static void insert(String st) {
         Node cur = root;
         for (int i = 0; i < st.length(); i++) {
@@ -35,6 +36,7 @@ public class Tries {
     }
 
     // Method to search for a word in the Trie
+    // Time Complexity: O(m), where m is the length of the word being searched
     public static boolean search(String st) {
         Node cur = root;
         for (int i = 0; i < st.length(); i++) {

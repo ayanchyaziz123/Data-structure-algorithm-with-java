@@ -17,12 +17,14 @@ public class LinkedListQueue {
     static Node front, rear; // Static references to the front and rear of the queue
 
     // Method to check if the queue is empty
+    // Time Complexity: O(1)
     public static Boolean empty() {
         // Queue is empty if both front and rear are null
         return front == null && rear == null ? true : false;
     }
 
     // Method to get the front node of the queue
+    // Time Complexity: O(1)
     public static Node front() {
         // If front is null, the queue is empty
         if (front == null) {
@@ -33,6 +35,7 @@ public class LinkedListQueue {
     }
 
     // Method to get the rear node of the queue
+    // Time Complexity: O(1)
     public static Node rear() {
         // If rear is null, the queue is empty
         if (rear == null) {
@@ -43,6 +46,7 @@ public class LinkedListQueue {
     }
 
     // Method to push a new element to the rear of the queue
+    // Time Complexity: O(1)
     public static void push(int data) {
         Node newNode = new Node(data);
 
@@ -59,6 +63,7 @@ public class LinkedListQueue {
     }
 
     // Method to print the elements of the queue
+    // Time Complexity: O(n), where n is the number of elements in the queue
     public static void printList() {
         Node cur = front;
         // Traverse the queue and print each element
