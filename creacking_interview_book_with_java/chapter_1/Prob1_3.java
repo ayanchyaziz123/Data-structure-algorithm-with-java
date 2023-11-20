@@ -18,6 +18,12 @@ public class Prob1_3 {
     // Time complexity: O(n), where n is the true length of the array
     void replaceSpaces(char[] str, int trueLength) {
         int numberOfSpaces = charCount(str, ' ', trueLength);
+        // "mr john smith "
+        // 13 + 6 = 19
+        // azizur rahman
+        // 12 + 2 = 14
+        //
+
         int newIndex = trueLength - 1 + numberOfSpaces * 2;
 
         // Ensure the array has sufficient space for the modified string
