@@ -18,8 +18,7 @@ public class Array {
         // }
         int[][] mat = new int[3][3];  // 3 row and 3 column
          // declaring and initializing 2D array
-         int mat2[][]
-         = { { 2, 7, 9 }, { 3, 6, 1 }, { 7, 4, 2 } };
+         int mat2[][] = { { 2, 7, 9 }, { 3, 6, 1 }, { 7, 4, 2 } };
 
     }
 }

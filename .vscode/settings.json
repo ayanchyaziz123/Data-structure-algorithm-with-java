@@ -1,11 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "oop",
+        "data_structure/array",
         "collections",
-        "OOP",
-        "DSA implementation/Tries",
-        "DSA implementation/Graph",
-        "DSA implementation/BS Tree",
-        "DSA implementation",
-        "Leetcode"
+        "algorithm/binary_search",
+        "creacking_interview_book_with_java/chapter_1"
     ]
 }
