@@ -1,9 +1,14 @@
 {
     "java.project.sourcePaths": [
         "oop",
+        "interview_questions/chapter_1",
         "data_structure/array",
+        "creacking_interview_book_with_java/chapter_1",
         "collections",
+        "algorithm/two_pointers",
+        "algorithm/sliding_window",
+        "algorithm/prefix_sum",
         "algorithm/binary_search",
-        "creacking_interview_book_with_java/chapter_1"
+        "algorithm/sorting"
     ]
 }

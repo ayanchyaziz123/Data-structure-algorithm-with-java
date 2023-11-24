@@ -1,3 +1,4 @@
+
 public class PlayWithBits {
     void printf(Object object)
     {
