@@ -10,8 +10,6 @@ public class GenericClass<T> {
     public static void main(String[] args)
     {
         GenericClass<Integer> gc = new GenericClass<Integer>();
-
-
     }
     
 }

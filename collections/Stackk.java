@@ -8,6 +8,7 @@ public class Stackk {
         stack.push(20);
         stack.push(30);
         stack.push(40);
+        int top = stack.peek();
         System.out.println(stack.peek());
         while (!stack.isEmpty()) {
             System.out.println(stack.pop());

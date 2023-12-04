@@ -16,8 +16,7 @@ public class LinkedListStack {
         return head == null ? true : false;
     }
 
-    public static Node peek()
-    {
+    public static Node peek(){
         if(head==null)
         {
             System.out.println("Stack is empty..!");
@@ -25,8 +24,7 @@ public class LinkedListStack {
         return head;
     }
 
-    public static void pop()
-    {
+    public static void pop(){
         if(head==null)
         {
             System.out.println("Stack is empty..!");
@@ -35,8 +33,7 @@ public class LinkedListStack {
         head = head.next;
     }
 
-    public static void push(int data)
-    {
+    public static void push(int data){
         Node newNode = new Node(data);
         if(head == null)
         {
@@ -46,8 +43,7 @@ public class LinkedListStack {
         newNode.next = head;
         head = newNode;
     }
-    public static void printList()
-    {
+    public static void printList(){
         Node cur = head;
         while(cur!=null)
         {
@@ -57,8 +53,7 @@ public class LinkedListStack {
     }
     
     
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         push(10);
         push(20);
         push(30);

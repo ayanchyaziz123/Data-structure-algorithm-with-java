@@ -25,7 +25,7 @@ public class PlayWithBits {
        // 1 << 0 = 1
        // 1 << 1 = 10
        // 1 << 2 = 100
-        if((a & (1<<i)) != 0)
+        if((val & (1<<i)) != 0)
         {
            printf("Set bit");
            return  true;
@@ -46,12 +46,14 @@ public class PlayWithBits {
     }
     int makeIthBitUnset(int num, int i)
     {
+        // make ith bit unset
         // ~num = telda of num = invert of num
         int x = (~(1<<i)); // firstly set then invert
         return (num & x);
     }
     int toggleBit(int num, int i)
     {
+        // 
         return (a ^ (1 << i));
     }
     public static void main(String[] args)
