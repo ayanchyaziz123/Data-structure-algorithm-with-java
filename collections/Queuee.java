@@ -14,5 +14,4 @@ public class Queuee {
             System.out.println(queue.remove());
         }
     }
-    
 }

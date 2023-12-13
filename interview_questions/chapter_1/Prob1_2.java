@@ -4,7 +4,7 @@ public class Prob1_2 {
     void printf(Object object) {
         System.out.print(object);
     }
-
+ 
     // Approach using character frequency arrays
     // Time complexity: O(n), where n is the length of the input strings
     boolean checkPermutation3(String st1, String st2) {

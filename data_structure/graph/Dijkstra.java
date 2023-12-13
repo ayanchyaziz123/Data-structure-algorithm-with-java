@@ -1,45 +1,41 @@
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.TreeMap;
+import java.util.List;
+import java.util.PriorityQueue;
+
 
 public class Dijkstra {
-    static int V, E;
-    static Map <Integer, Integer>adj[] = new HashMap[V];
-
-    public  void addEdge(int src, int dst, int cost)
-    {
-        adj[src].put(dst, cost);
-        adj[dst].put(src, cost);
+    class Node{
+    int dst;
+    int cst;
+    int src;
+    public Node(int src, int dst, int cst){
+        this.src = src;
+        this.dst = dst;
+        this.cst = cst;
     }
-    public void dijkstraAlgo()
-    {
-        
-    }
-    public void defineAdjList()
-    {
-        for(int i = 0; i < V; i++)
-        {
-            adj[i] = new HashMap<>();
+}
+   public Dijkstra(List<Node> adj[], int VERTEX){
+        for(int i = 0; i < VERTEX; i++){
+            adj[i] = new ArrayList<Node>();
         }
     }
 
-
-    public static void main(String[] args)
-    {
-        Dijkstra dijkstra = new Dijkstra();
-        Scanner scanner = new Scanner(System.in);
-        V = scanner.nextInt();
-        E = scanner.nextInt();
-        dijkstra.defineAdjList();
-        for(int i = 0; i < E; i++)
-        {
-            int src, dst, cost;
-            src = scanner.nextInt();
-            dst = scanner.nextInt();
-            cost = scanner.nextInt();
-            dijkstra.addEdge(src, dst, cost);
-        }
-
+    public void addEdge(List<Node> adj[], int src, int dst, int cst){
+        adj[src].add(new Node(src, dst, cst));
+        adj[dst].add(new Node(src,dst, cst));
+    }
+    public void traversalDj(List<Node> adj[], int src, int VERTEX){
+        PriorityQueuee<Integer> pq = new PriorityQueuee<Integer>();
+    }
+    public static void main(String[] args){
+        int VERTEX = 5;
+        List<Node> adj[] = new ArrayList[VERTEX]; 
+        Dijkstra dijkstra = new Dijkstra(adj, VERTEX);
+         dijkstra.addEdge(adj, 0, 1, 8);
+        dijkstra.addEdge(adj, 0, 2, 10);
+        dijkstra.addEdge(adj, 2, 3, 15);
+        dijkstra.addEdge(adj, 3, 4, 5);
+        dijkstra.traversalDj(adj, 0, VERTEX);
     }
 }

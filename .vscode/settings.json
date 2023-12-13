@@ -2,9 +2,11 @@
     "java.project.sourcePaths": [
         "oop",
         "interview_questions/chapter_8",
+        "interview_questions/chapter_5",
         "interview_questions/chapter_4",
         "interview_questions/chapter_1",
         "data_structure/linked_list",
+        "data_structure/graph",
         "data_structure/array",
         "collections",
         "algorithm/two_pointers",
@@ -13,6 +15,7 @@
         "algorithm/prefix_sum",
         "algorithm/dynamic_programming",
         "algorithm/binary_search",
-        "interview_questions/chapter_5"
-    ]
+        "algorithm/searching"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
