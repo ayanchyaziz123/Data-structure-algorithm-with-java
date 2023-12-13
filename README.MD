@@ -1,4 +1,4 @@
-# C++ Data Structures and Algorithms
+# Java Data Structures and Algorithms
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ayanchyaziz123/Data-structure-and-algorithm-with-java)
 ![GitHub license](https://img.shields.io/github/license/ayanchyaziz123/Data-structure-and-algorithm-with-java)
