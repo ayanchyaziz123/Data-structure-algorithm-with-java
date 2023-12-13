@@ -1,5 +1,5 @@
 // Implementation of a Binary Search Tree (BST)
-public class BST {
+public class BinarySearchTree{
     
     // Node class to represent a node in the BST
     static class Node {

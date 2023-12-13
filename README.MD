@@ -1,11 +1,11 @@
-# C++ Data Structures and Algorithms
+# Java Data Structures and Algorithms
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ayanchyaziz123/Data-structure-and-algorithm-with-java)
 ![GitHub license](https://img.shields.io/github/license/ayanchyaziz123/Data-structure-and-algorithm-with-java)
 
 ## Overview
 
-This repository contains a collection of common data structures and algorithms implemented in C++. It serves as a learning resource and reference for anyone studying computer science, preparing for coding interviews, or looking to enhance their algorithmic problem-solving skills.
+This repository contains a collection of common data structures and algorithms implemented in Java. It serves as a learning resource and reference for anyone studying computer science, preparing for coding interviews, or looking to enhance their algorithmic problem-solving skills.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ This repository contains a collection of common data structures and algorithms i
 
 ### 1. Linked List
 
-- [Implementation](linkedList.cpp)
+- [Singly Linked List Implementation](data_structure/linked_list/SinglyLinkedList.java)
 - [Usage Example](linkedListUsage.cpp)
 
 Description: A basic singly linked list implementation with essential operations such as insertion, deletion, and traversal.
@@ -70,9 +70,9 @@ Description: Graph implementation with adjacency list representation and basic g
 
 ### 1. Sorting
 
-- [Bubble Sort](sorting/bubbleSort.cpp)
+- [Bubble Sort](algorithm/sorting/BubbleSort.java)
 - [Quick Sort](sorting/quickSort.cpp)
-- [Merge Sort](sorting/mergeSort.cpp)
+- [Merge Sort](algorithm/sorting/MergeSort.java)
 
 Description: Various sorting algorithms implemented in C++.
 
